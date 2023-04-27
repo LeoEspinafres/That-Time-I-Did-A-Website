@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: auto;
+}
+.almost
+{
+	font-size: 8px;
+}
+.navbar
+{
+	background-color: rgb(36, 41, 47, 0.9);
+	color: white;
+	font-weight: bolder;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+	z-index: 1;
+	height: 6%;
+}
+
+.navbar-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 50px;
+	font-size: 30px;
+}
+
+.navbar-right {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 5%;
+	width: 50%;
+}
+
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+.container
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.photo
+{
+	border: white 10px solid;
+	background-color: white;
+}
+
+.container img {
+	width: 300px;
+	height: auto;
+	transition: all 0.3s ease;
+	filter: blur(30px); /* Blur all images by default */
+  }
+  
+  .container img:hover {
+	filter: none; /* Remove blur from the hovered image */
+	transform: scale(1.2);
+  }
+
+  h3
+  {
+	background-color: white;
+	margin-top: 35px;
+	text-align: center;
+  }

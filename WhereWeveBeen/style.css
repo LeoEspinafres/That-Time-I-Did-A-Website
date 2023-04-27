@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: auto;
+}
+.navbar
+{
+	background-color: rgb(36, 41, 47, 0.9);
+	color: white;
+	font-weight: bolder;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+	z-index: 1;
+	height: 6%;
+}
+
+.navbar-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 50px;
+	font-size: 30px;
+}
+
+.navbar-right {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 5%;
+	width: 50%;
+}
+a
+{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.almost
+{
+	font-size: 8px;
+}
+a:hover {
+	color: green;
+}
+
+.container
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.container img
+{
+	height: 100%;
+	width: 57%;
+	border-radius: 10%;
+	box-shadow: 10em;
+}
+
+.container .lord-icon1
+{
+	position: absolute;
+	top: 17%;
+	left: 27%;	
+}
+
+.container .lord-icon2
+{
+	position: absolute;
+	top: 64%;
+	left: 34%;
+}
+
+.container .lord-icon3
+{
+	position: absolute;
+	top: 48%;
+	left: 33%;
+}
+
+.container .lord-icon4
+{
+	position: absolute;
+	top: 52%;
+	left: 23%;
+}
+
+.container .lord-icon5
+{
+	position: absolute;
+	top: 29%;
+	left: 25%;
+}
+
+.popup
+{
+	display: none;
+	background: white;
+	border: black 5px solid;
+	margin: -125px 200px;
+	width: 180px;
+	height: 90px;
+	font-size: 18px;
+	text-align: justify;
+	padding: 5px;
+}
+
+.lord-icon5 .popup {
+	margin: -125px  -230px;
+}
+.lord-icon4 .popup {
+	margin: -125px  -230px;
+}
+.lord-icon1:hover .popup
+{
+	display: block;
+}
+
+.lord-icon2:hover .popup
+{
+	display: block;
+}
+
+.lord-icon3:hover .popup
+{
+	display: block;
+}
+
+.lord-icon4:hover .popup
+{
+	display: block;
+}
+
+.lord-icon5:hover .popup
+{
+	display: block;
+}
